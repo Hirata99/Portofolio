@@ -1,0 +1,53 @@
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+section {
+  scroll-margin-top: 70px;
+}
+
+.card-img-top {
+  object-fit: cover;
+  height: 200px;
+}
+
+
+footer {
+  margin-top: 40px;
+}
+
+.card {
+  transition: transform 0.25s cubic-bezier(.4,2,.3,1), box-shadow 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 2px;
+}
+
+.foto-profil {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.social-icon {
+  text-decoration: none !important;
+}
+.social-icon i {
+  vertical-align: middle;
+}
+
+.hero-header {
+  position: relative;
+}
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5); /* Ubah opacity , misal 0.4 - 0.6 */
+  z-index: 1;
+}
