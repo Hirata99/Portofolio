@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style1.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <div class="container">
+        <a class="navbar-brand" href="#">Farrel Dwi Irawan</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#about">Tentang Saya</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#sekolah">Sekolah</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Keahlian</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero -->
+    <header class="text-dark text-center py-5 hero-header" style="background: url(img/bg5.jpg); background-size: cover; background-position: center; position: relative;">
+      <div class="hero-overlay"></div>
+      <section class="text-center py-5 position-relative" style="z-index: 2;">
+        <div class="container">
+          <img src="img/profil.jpg" class="rounded-circle mb-3 foto-profil" alt="Foto Profil" />
+          <h1 class="display-5 fw-bold text-white">Farrel</h1>
+          <p class="lead text-white">Web Developer | UI/UX Designer | System Administrator</p>
+          <a href="#contact" class="btn btn-primary mt-3">Hubungi Saya</a>
+        </div>
+      </section>
+    </header>
+
+    <!-- About -->
+    <section id="about" class="py-5">
+      <div class="container">
+        <h2 class="mb-3">Tentang Saya</h2>
+        <p>
+          Saya adalah seorang siswa SMK NEGERI 3 METRO yang sedang belajar
+          pemrograman web. saya sedang membuat website portofolio sederhana.
+          Saya bercita cita untuk menjadi seorang programmer yang hebat.
+        </p>
+      </div>
+    </section>
+
+<section id="tentang" class="py-5">
+  <div class="container">
+    <h2 class="mb-4 text-center">Biodata Diri</h2>
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <ul class="list-group">
+          <li class="list-group-item"><strong>Nama:</strong> Farrel Dwi Irawan</li>
+          <li class="list-group-item"><strong>Jenis Kelamin:</strong> Laki-laki</li>
+          <li class="list-group-item"><strong>Alamat:</strong> Indonesia, Lampung</li>
+          <li class="list-group-item"><strong>Agama:</strong> Islam</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <!-- school -->
+   <section id="sekolah" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="mb-4">Riwayat Pendidikan</h2>
+      <div class="row g-4">
+        <div class="col-md-3">
+          <div class="card h-100">
+            <img src="img/sd.jpeg" class="card-img-top" alt="sekolah1">
+            <div class="card-body">
+              <h5 class="card-title">SDIT AL-Muhsin Metro</h5>
+              <p class="card-text">Bersekolah Disini Selama 6 tahun.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card h-100">
+            <img src="img/smptmi.jpeg" class="card-img-top" alt="sekolah1">
+            <div class="card-body">
+              <h5 class="card-title">SMP Tmi Roudlotul Qur'an Metro</h5>
+              <p class="card-text">Bersekolah Disini Selama 1 tahun.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card h-100">
+            <img src="img/smp.jpeg" class="card-img-top" alt="sekolah2">
+            <div class="card-body">
+              <h5 class="card-title">SMP Negeri 1 Metro</h5>
+              <p class="card-text">Bersekolah Disini Selama 2 Tahun.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card h-100">
+            <img src="img/smk.jpeg" class="card-img-top" alt="sekolah3">
+            <div class="card-body">
+              <h5 class="card-title">SMK Negeri 3 Metro</h5>
+              <p class="card-text">Sedang Bersekolah Disini 👋</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="py-5">
+    <div class="container">
+      <h2 class="mb-4">Keahlian</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card h-100">
+            <img src="img/html.jpeg" class="card-img-top" alt="HTML">
+            <div class="card-body">
+              <h5 class="card-title">HTML</h5>
+              <p class="card-text">Mahir dalam membuat struktur halaman web.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100">
+            <img src="img/css.jpeg" class="card-img-top" alt="CSS">
+            <div class="card-body">
+              <h5 class="card-title">CSS</h5>
+              <p class="card-text">Menguasai styling dan layouting halaman web.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100">
+            <img src="img/js.jpeg" class="card-img-top" alt="JavaScript">
+            <div class="card-body">
+              <h5 class="card-title">JavaScript</h5>
+              <p class="card-text">Mampu membuat Permainan Animasi Dalam pemrograman.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100">
+            <img src="img/bootsrap.png" class="card-img-top" alt="Bootstrap">
+            <div class="card-body">
+              <h5 class="card-title">Bootstrap</h5>
+              <p class="card-text">Bisa menggunakan framework CSS untuk desain responsif.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4"> 
+          <div class="card h-100">
+            <img src="img/php.jpeg" class="card-img-top" alt="PHP">
+            <div class="card-body">
+              <h5 class="card-title">PHP</h5>
+              <p class="card-text">Menguasai pengembangan aplikasi web backend.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100">
+            <img src="img/sql.png" class="card-img-top" alt="MySQL">
+            <div class="card-body">
+              <h5 class="card-title">MySQL</h5>
+              <p class="card-text">Berpengalaman dalam mengatur basis data.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+
+  <!-- Footer -->
+  <footer class="text-center py-4 bg-primary text-white">
+    <div class="container">
+      <h5>Social Media Saya</h5>
+      <div class="mb-2">
+        <a href="https://instagram.com/zatcha_id" target="_blank" class="text-white me-3 social-icon text-decoration-none" title="Instagram">
+          <i class="bi bi-instagram" style="font-size: 2rem;"></i>
+        </a>
+        <a href="https://wa.me/088286590200" target="_blank" class="text-white me-3 social-icon text-decoration-none" title="WhatsApp">
+          <i class="bi bi-whatsapp" style="font-size: 2rem;"></i>
+        </a>
+        <a href="https://github.com/Hirata99" target="_blank" class="text-white social-icon text-decoration-none" title="GitHub">
+          <i class="bi bi-github" style="font-size: 2rem;"></i>
+        </a>
+      </div>
+      &copy; 2025 Farrel Dwi Irawan. All rights reserved.
+    </div>
+  </footer>
+
+    <!--Bootstrap-->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+  </body>
+</html>
